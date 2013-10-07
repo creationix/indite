@@ -29,7 +29,7 @@ having to copy all my other data.
  - README.md - A human readable file describing this repository's format and purpose.
  - indite.json - Configuration of the site.  Including the skin and list of articles.
 
-```json
+```js
 {
   url: "http://howtonode.org/",
   skin: "light",
