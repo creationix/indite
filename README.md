@@ -4,9 +4,11 @@
 
   > "he indites the wondrous tale of Our Lord"
 
-2. (noun) a git based blogging system for technical writings.
+2. (noun modern) a git based blogging system for technical writings.
 
-  > "Indite is an amazing way to share code ideas with the world.
+  > "Indite is an amazing way to share code ideas with the world."
+
+--------------------------------------------------------------------------------
 
  - Every article is a branch.
  - Skins are also branches.
@@ -24,17 +26,36 @@ having to copy all my other data.
 
 ## Contents of Master Index
 
-...
+ - README.md - A human readable file describing this repository's format and purpose.
+ - indite.json - Configuration of the site.  Including the skin and list of articles.
+
+```json
+{
+  url: "http://howtonode.org/",
+  skin: "light",
+  articles: {
+    "object-graphs": {
+      title: "Object Graphs",
+      date: 1381171051272,
+      author: "Tim Caswell",
+      summary: "...",
+      skin: "dark"
+    }
+  }
+}
+```
 
 ## Contents of an Article
 
-...
+ - README.md - the main prose as well as links to plugin instances.
+
+Raw code snippets associated with this article are also in this branch.
 
 ## Contents of a Skin
 
-...
+A skin contains static resources as well as templates.
 
 ## Contents of a Runtime
 
-...
-
+A runtime contains a code parser, an interpreter, and mappings to sandbox system
+calls for interactivity.
