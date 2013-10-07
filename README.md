@@ -1,7 +1,12 @@
-indite
-======
+# in·dite
 
-A git based blogging system for technical writings.
+1. (verb archaic) write; compose.
+
+  > "he indites the wondrous tale of Our Lord"
+
+2. (noun) a git based blogging system for technical writings.
+
+  > "Indite is an amazing way to share code ideas with the world.
 
  - Every article is a branch.
  - Skins are also branches.
